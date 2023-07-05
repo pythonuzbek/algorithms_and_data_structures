@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "algorithms-and-data-structure"
+version = "0.1.0"
+description = ""
+authors = ["pythonuzbek <nusratullo3304@gmail.com>"]
+readme = "README.md"
+packages = [{include = "algorithms_and_data_structure"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
