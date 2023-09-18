@@ -15,5 +15,9 @@ def binary_search(arr, l, r, x):
 
 
 arr = [2, 3, 4, 10, 40]
-x = 10
-print(binary_search(arr, 0, len(arr) - 1, x))
+x = 20
+result = binary_search(arr, 0, len(arr) - 1, x)
+if result != -1:
+    print(result)
+else:
+    print('element is not in this array')
