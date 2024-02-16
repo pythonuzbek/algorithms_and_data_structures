@@ -1,4 +1,4 @@
-def max_integer(array: list):
+def max_integer(array: list) -> int:
     for i in range(0, len(array) - 1):
         if array[i] > array[i + 1]:
             temp = array[i]
